@@ -1,0 +1,357 @@
+.matrix-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  display: flex;
+}
+
+.matrix-pattern {
+  position: relative;
+  width: 1000px;
+  height: 100%;
+  flex-shrink: 0;
+}
+
+.matrix-column {
+  position: absolute;
+  top: -100%;
+  width: 20px;
+  height: 100%;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: bold;
+  animation: fall linear infinite;
+  white-space: nowrap;
+  will-change: transform;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.matrix-column::before {
+  content: "ILOOOOOOOOOOOOOOOOOOOOOOVEEEEEEEEEEEEEEYOUUUUUUSOOMUCHHHHHHHHHHHHHHHHHHHH";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(185, 79, 255, 1) 0%,
+    rgba(255, 69, 69, 1) 20%,
+    rgba(252, 176, 69, 1) 40%,
+    rgba(252, 237, 69, 1) 60%,
+    rgba(69, 252, 90, 1) 80%,
+    rgba(69, 206, 252, 1) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  writing-mode: vertical-lr;
+  letter-spacing: 1px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.matrix-column:nth-child(1) {
+  left: 0px;
+  animation-delay: -6.25s;
+  animation-duration: 7.5s;
+}
+
+.matrix-column:nth-child(2) {
+  left: 25px;
+  animation-delay: -8s;
+  animation-duration: 10s;
+}
+
+.matrix-column:nth-child(3) {
+  left: 50px;
+  animation-delay: -4.5s;
+  animation-duration: 6.25s;
+}
+
+.matrix-column:nth-child(4) {
+  left: 75px;
+  animation-delay: -7.25s;
+  animation-duration: 8.75s;
+}
+
+.matrix-column:nth-child(5) {
+  left: 100px;
+  animation-delay: -3.75s;
+  animation-duration: 7.5s;
+}
+
+.matrix-column:nth-child(6) {
+  left: 125px;
+  animation-delay: -9.5s;
+  animation-duration: 11.25s;
+}
+
+.matrix-column:nth-child(7) {
+  left: 150px;
+  animation-delay: -5.25s;
+  animation-duration: 7s;
+}
+
+.matrix-column:nth-child(8) {
+  left: 175px;
+  animation-delay: -6.75s;
+  animation-duration: 8s;
+}
+
+.matrix-column:nth-child(9) {
+  left: 200px;
+  animation-delay: -8.5s;
+  animation-duration: 9.5s;
+}
+
+.matrix-column:nth-child(10) {
+  left: 225px;
+  animation-delay: -4.75s;
+  animation-duration: 6.75s;
+}
+
+.matrix-column:nth-child(11) {
+  left: 250px;
+  animation-delay: -9s;
+  animation-duration: 10.5s;
+}
+
+.matrix-column:nth-child(12) {
+  left: 275px;
+  animation-delay: -5.75s;
+  animation-duration: 7.75s;
+}
+
+.matrix-column:nth-child(13) {
+  left: 300px;
+  animation-delay: -7.75s;
+  animation-duration: 9s;
+}
+
+.matrix-column:nth-child(14) {
+  left: 325px;
+  animation-delay: -6.5s;
+  animation-duration: 7.25s;
+}
+
+.matrix-column:nth-child(15) {
+  left: 350px;
+  animation-delay: -9.25s;
+  animation-duration: 10.25s;
+}
+
+.matrix-column:nth-child(16) {
+  left: 375px;
+  animation-delay: -7s;
+  animation-duration: 8.25s;
+}
+
+.matrix-column:nth-child(17) {
+  left: 400px;
+  animation-delay: -8.25s;
+  animation-duration: 9.25s;
+}
+
+.matrix-column:nth-child(18) {
+  left: 425px;
+  animation-delay: -5.5s;
+  animation-duration: 6.5s;
+}
+
+.matrix-column:nth-child(19) {
+  left: 450px;
+  animation-delay: -9.75s;
+  animation-duration: 10.75s;
+}
+
+.matrix-column:nth-child(20) {
+  left: 475px;
+  animation-delay: -6s;
+  animation-duration: 8.5s;
+}
+
+.matrix-column:nth-child(21) {
+  left: 500px;
+  animation-delay: -4.25s;
+  animation-duration: 6s;
+}
+
+.matrix-column:nth-child(22) {
+  left: 525px;
+  animation-delay: -8.75s;
+  animation-duration: 9.75s;
+}
+
+.matrix-column:nth-child(23) {
+  left: 550px;
+  animation-delay: -5s;
+  animation-duration: 7.5s;
+}
+
+.matrix-column:nth-child(24) {
+  left: 575px;
+  animation-delay: -10s;
+  animation-duration: 11s;
+}
+
+.matrix-column:nth-child(25) {
+  left: 600px;
+  animation-delay: -4s;
+  animation-duration: 5.75s;
+}
+
+.matrix-column:nth-child(26) {
+  left: 625px;
+  animation-delay: -7.5s;
+  animation-duration: 8.75s;
+}
+
+.matrix-column:nth-child(27) {
+  left: 650px;
+  animation-delay: -9.5s;
+  animation-duration: 10s;
+}
+
+.matrix-column:nth-child(28) {
+  left: 675px;
+  animation-delay: -6.25s;
+  animation-duration: 7s;
+}
+
+.matrix-column:nth-child(29) {
+  left: 700px;
+  animation-delay: -8s;
+  animation-duration: 9s;
+}
+
+.matrix-column:nth-child(30) {
+  left: 725px;
+  animation-delay: -6.75s;
+  animation-duration: 8s;
+}
+
+.matrix-column:nth-child(31) {
+  left: 750px;
+  animation-delay: -4.5s;
+  animation-duration: 6.75s;
+}
+
+.matrix-column:nth-child(32) {
+  left: 775px;
+  animation-delay: -9s;
+  animation-duration: 10.25s;
+}
+
+.matrix-column:nth-child(33) {
+  left: 800px;
+  animation-delay: -5.25s;
+  animation-duration: 7.75s;
+}
+
+.matrix-column:nth-child(34) {
+  left: 825px;
+  animation-delay: -8.5s;
+  animation-duration: 9.25s;
+}
+
+.matrix-column:nth-child(35) {
+  left: 850px;
+  animation-delay: -7s;
+  animation-duration: 7.25s;
+}
+
+.matrix-column:nth-child(36) {
+  left: 875px;
+  animation-delay: -9.25s;
+  animation-duration: 10.5s;
+}
+
+.matrix-column:nth-child(37) {
+  left: 900px;
+  animation-delay: -5.75s;
+  animation-duration: 8.25s;
+}
+
+.matrix-column:nth-child(38) {
+  left: 925px;
+  animation-delay: -4.75s;
+  animation-duration: 6.25s;
+}
+
+.matrix-column:nth-child(39) {
+  left: 950px;
+  animation-delay: -8.75s;
+  animation-duration: 9.5s;
+}
+
+.matrix-column:nth-child(40) {
+  left: 975px;
+  animation-delay: -6.5s;
+  animation-duration: 8.5s;
+}
+
+.matrix-column:nth-child(odd)::before {
+  content: "IMIIIISSSSSSSSSSSSSSSSYOUUUUUUUUUUUUUUUUUUUUMOSSSSSSSTTTTTTTTTTTTTTTTTTTTTTTTTT";
+}
+
+.matrix-column:nth-child(even)::before {
+  content: "RON AND JERI FOREVER AND ALWAYS AND EVER AND EVER AND EVER AND EVER AND EVER AND EVER AND EVER AND EVER";
+}
+
+.matrix-column:nth-child(3n)::before {
+  content: "LOVE YOU TO THE MOON AND BACK AND TO INFINITY AND BEYOND AND BEYOND AND BEYOND AND BEYOND AND BEYOND AND BEYOND";
+}
+
+.matrix-column:nth-child(4n)::before {
+  content: "YOU ARE THE LIGHT OF MY LIFE AND THE BEAT OF MY HEART AND THE AIR I BREATHE AND THE REASON I SMILE AND THE LOVE OF MY LIFE AND THE ONE I WANT TO SPEND FOREVER WITH";
+}
+
+.matrix-column:nth-child(5n)::before {
+  content: "EVERY MOMENT WITH YOU IS A TREASURE AND EVERY MEMORY WE MAKE IS A GIFT AND EVERY DAY I SPEND WITH YOU IS A BLESSING AND EVERY NIGHT I FALL ASLEEP THINKING OF YOU AND EVERY MORNING I WAKE UP GRATEFUL FOR YOU";
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-10%);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(200%);
+    opacity: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .matrix-column {
+    font-size: 14px;
+    line-height: 16px;
+    width: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .matrix-column {
+    font-size: 12px;
+    line-height: 14px;
+    width: 15px;
+  }
+}
+
+@keyframes rainbowShift {
+  0% {
+    color: linear-gradient(0deg, red, orange, yellow);
+  }
+  50% {
+    color: linear-gradient(0deg, green, blue, indigo);
+  }
+  100% {
+    color: linear-gradient(0deg, violet, red, orange);
+  }
+}
+
+.matrix-column::before {
+  animation: rainbowShift 5s infinite;
+}
