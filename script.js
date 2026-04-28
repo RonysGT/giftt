@@ -238,7 +238,7 @@ function updatePages() {
         leftIframe.style.cssText = 'width: 100%; height: 100%; overflow: auto; background: white; border-radius: 0px; padding: 0; margin: 0;';
         
         const iframe = document.createElement('iframe');
-        iframe.src = '../ahh/index.html';
+        iframe.src = 'gay.html';
         iframe.style.cssText = 'width: 100%; height: 100%; border: none; display: block;';
         
         leftIframe.appendChild(iframe);
